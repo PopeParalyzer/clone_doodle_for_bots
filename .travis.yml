@@ -1,9 +1,1 @@
 language : java
-language : node_js
-install : true
-#script: mvn clean package -DskipTests=true
-before_script: 
-  - cd front
-  - npm install
-  - npm start
-  - cd api
